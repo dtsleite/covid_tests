@@ -1,0 +1,140 @@
+INFO:root:2021-11-30 20:30:16.309439 - Data obtained successfully with status code: 200
+INFO:root:2021-11-30 20:30:30.250032 - Connected successfully.
+INFO:root:2021-11-30 21:18:10.855344 - Data obtained successfully with status code: 200
+INFO:root:2021-11-30 21:18:15.871480 - Connected successfully.
+INFO:root:2021-11-30 21:19:28.597991 - Data obtained successfully with status code: 200
+INFO:root:2021-11-30 21:19:33.068017 - Connected successfully.
+INFO:root:2021-11-30 21:21:31.014782 - Data obtained successfully with status code: 200
+INFO:root:2021-11-30 21:21:34.651608 - Connected successfully.
+INFO:root:2021-11-30 21:22:39.389304 - Data obtained successfully with status code: 200
+INFO:root:2021-11-30 21:22:43.180165 - Connected successfully.
+INFO:root:2021-11-30 22:55:06.631462 - Connected successfully.
+INFO:root:2021-11-30 22:55:22.927425 - Connected successfully.
+INFO:root:2021-11-30 22:55:29.846318 - Connected successfully.
+INFO:root:2021-11-30 22:55:51.642560 - Connected successfully.
+INFO:root:2021-11-30 23:11:40.010168 - Connected successfully.
+INFO:root:2021-11-30 23:12:21.553987 - Connected successfully.
+INFO:root:2021-11-30 23:27:03.602983 - Connected successfully.
+INFO:root:2021-11-30 23:28:30.210477 - Connected successfully.
+INFO:root:2021-11-30 23:28:46.838402 - Connected successfully.
+INFO:root:2021-11-30 23:29:15.218506 - Connected successfully.
+INFO:root:2021-11-30 23:30:33.101627 - Connected successfully.
+INFO:root:2021-11-30 23:32:10.478877 - Connected successfully.
+INFO:root:2021-11-30 23:32:53.187359 - Connected successfully.
+INFO:root:2021-11-30 23:36:34.796394 - Connected successfully.
+INFO:root:2021-11-30 23:36:55.894382 - Connected successfully.
+INFO:root:2021-11-30 23:36:58.891103 - Connected successfully.
+INFO:root:2021-11-30 23:37:18.690367 - Connected successfully.
+INFO:root:2021-11-30 23:37:38.417135 - Connected successfully.
+INFO:root:2021-11-30 23:39:15.911912 - Connected successfully.
+INFO:root:2021-11-30 23:44:49.201706 - Connected successfully.
+INFO:root:2021-11-30 23:53:09.772008 - Connected successfully.
+INFO:root:2021-11-30 23:57:25.313049 - Connected successfully.
+INFO:root:2021-12-01 00:02:30.719203 - Connected successfully.
+INFO:root:2021-12-01 00:55:21.534883 - Data obtained successfully with status code: 200
+INFO:root:2021-12-01 00:55:25.157688 - Connected successfully.
+INFO:root:2021-12-01 01:32:41.909759 - Connected successfully.
+ERROR:root:2021-12-01 01:32:41.877753 - Error on load table with message: syntax error at or near "HEADER"
+LINE 1: ...on/data/countries_of_the_world.csv' WITH (FORMAT CSV) HEADER
+                                                                 ^
+
+INFO:root:2021-12-01 01:35:03.374510 - Connected successfully.
+INFO:root:2021-12-02 12:03:05.623261 - Data obtained successfully with status code: 200
+INFO:root:2021-12-02 12:03:11.968773 - Connected successfully.
+INFO:root:2021-12-02 12:03:12.565909 - Data obtained successfully with status code: 200
+INFO:root:2021-12-02 12:03:15.971712 - Connected successfully.
+ERROR:root:2021-12-02 12:03:15.823679 - Error on load table with message: value too long for type character varying(50)
+
+INFO:root:2021-12-02 12:08:51.167370 - Data obtained successfully with status code: 200
+INFO:root:2021-12-02 12:08:58.033001 - Data obtained successfully with status code: 200
+INFO:root:2021-12-02 12:09:02.891582 - Connected successfully.
+INFO:root:2021-12-03 00:49:22.487774 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 00:49:27.032293 - Connected successfully.
+ERROR:root:2021-12-03 00:49:26.996956 - Error on load table with message: duplicate key value violates unique constraint "covid_number_cases_pkey"
+DETAIL:  Key (country)=(Afghanistan) already exists.
+
+INFO:root:2021-12-03 00:49:27.870886 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 00:49:32.187442 - Connected successfully.
+ERROR:root:2021-12-03 00:49:32.161036 - Error on load table with message: relation "dell_tests.hospital_occupancy" does not exist
+LINE 1:  insert into dell_tests.hospital_occupancy
+                     ^
+
+INFO:root:2021-12-03 00:49:32.453090 - Connected successfully.
+ERROR:root:2021-12-03 00:49:32.427068 - Error on load table with message: [Errno 2] No such file or directory: 'C:/projects/dell_test/src/covid_json_data_ingestion/data/countries_of_the_world.csv'
+INFO:root:2021-12-03 00:50:45.694946 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 00:50:50.618599 - Connected successfully.
+ERROR:root:2021-12-03 00:50:50.590580 - Error on load table with message: duplicate key value violates unique constraint "covid_number_cases_pkey"
+DETAIL:  Key (country)=(Afghanistan) already exists.
+
+INFO:root:2021-12-03 00:50:51.323679 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 00:50:55.500814 - Connected successfully.
+ERROR:root:2021-12-03 00:50:55.475220 - Error on load table with message: relation "dell_tests.hospital_occupancy" does not exist
+LINE 1:  insert into dell_tests.hospital_occupancy
+                     ^
+
+INFO:root:2021-12-03 00:50:55.736245 - Connected successfully.
+ERROR:root:2021-12-03 00:50:55.707849 - Error on load table with message: [Errno 2] No such file or directory: 'C:/projects/dell_test/src/covid_json_data_ingestion/data/countries_of_the_world.csv'
+INFO:root:2021-12-03 00:52:00.576637 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 00:52:04.602750 - Connected successfully.
+ERROR:root:2021-12-03 00:52:04.573268 - Error on load table with message: duplicate key value violates unique constraint "covid_number_cases_pkey"
+DETAIL:  Key (country)=(Afghanistan) already exists.
+
+INFO:root:2021-12-03 00:52:05.350852 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 00:52:08.862727 - Connected successfully.
+ERROR:root:2021-12-03 00:52:08.836713 - Error on load table with message: relation "dell_tests.hospital_occupancy" does not exist
+LINE 1:  insert into dell_tests.hospital_occupancy
+                     ^
+
+INFO:root:2021-12-03 00:52:09.239757 - Connected successfully.
+ERROR:root:2021-12-03 00:52:09.098350 - Error on load table with message: [Errno 2] No such file or directory: 'C:/projects/dell_test/src/covid_json_data_ingestion/data/countries_of_the_world.csv'
+INFO:root:2021-12-03 00:55:12.124364 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 00:55:17.205025 - Connected successfully.
+ERROR:root:2021-12-03 00:55:17.175143 - Error on load table with message: duplicate key value violates unique constraint "covid_number_cases_pkey"
+DETAIL:  Key (country)=(Afghanistan) already exists.
+
+INFO:root:2021-12-03 00:55:17.922124 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 00:55:22.411269 - Connected successfully.
+ERROR:root:2021-12-03 00:55:22.383301 - Error on load table with message: relation "dell_tests.hospital_occupancy" does not exist
+LINE 1:  insert into dell_tests.hospital_occupancy
+                     ^
+
+INFO:root:2021-12-03 00:55:22.695731 - Connected successfully.
+INFO:root:2021-12-03 00:57:48.141152 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 00:57:54.151755 - Connected successfully.
+ERROR:root:2021-12-03 00:57:54.116936 - Error on load table with message: duplicate key value violates unique constraint "covid_number_cases_pkey"
+DETAIL:  Key (country)=(Afghanistan) already exists.
+
+INFO:root:2021-12-03 00:59:08.415937 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 00:59:12.559080 - Connected successfully.
+ERROR:root:2021-12-03 00:59:12.530997 - Error on load table with message: duplicate key value violates unique constraint "covid_number_cases_pkey"
+DETAIL:  Key (country)=(Afghanistan) already exists.
+
+INFO:root:2021-12-03 01:03:44.335612 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 01:03:53.086738 - Connected successfully.
+ERROR:root:2021-12-03 01:03:53.056555 - Error on load table with message: duplicate key value violates unique constraint "covid_number_cases_pkey"
+DETAIL:  Key (country)=(Afghanistan) already exists.
+
+INFO:root:2021-12-03 01:10:14.950031 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 01:10:19.071580 - Connected successfully.
+ERROR:root:2021-12-03 01:10:19.044561 - Error on load table with message: duplicate key value violates unique constraint "covid_number_cases_pkey"
+DETAIL:  Key (country)=(Afghanistan) already exists.
+
+INFO:root:2021-12-03 01:13:18.539744 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 01:13:23.183102 - Connected successfully.
+ERROR:root:2021-12-03 01:13:23.156096 - Error on load table with message: duplicate key value violates unique constraint "covid_number_cases_pkey"
+DETAIL:  Key (country)=(Afghanistan) already exists.
+
+INFO:root:2021-12-03 01:15:36.714924 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 01:15:40.783011 - Connected successfully.
+INFO:root:2021-12-03 01:15:41.413152 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 01:15:49.189893 - Connected successfully.
+ERROR:root:2021-12-03 01:15:49.163887 - Error on load table with message: relation "dell_tests.hospital_occupancy" does not exist
+LINE 1:  insert into dell_tests.hospital_occupancy
+                     ^
+
+INFO:root:2021-12-03 01:15:49.423945 - Connected successfully.
+INFO:root:2021-12-03 01:18:57.232662 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 01:19:01.650648 - Connected successfully.
+INFO:root:2021-12-03 01:19:02.282791 - Data obtained successfully with status code: 200
+INFO:root:2021-12-03 01:19:08.745231 - Connected successfully.
+INFO:root:2021-12-03 01:19:09.125316 - Connected successfully.
